@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="page-container">
+        <div class="card-container">
+          <img
+            class="hero-image"
+            src="images/illustration-hero.svg"
+            alt="woman jiving out to music on her ipod"
+          />
+          <div class="order-summary-container">
+            <h1 class="order-summary-header">Order Summary</h1>
+            <p class="order-summary-exposition">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+            <div class="subscription-plan-container">
+              <div class="subscription-cost">
+                <img
+                  class="icon-music"
+                  src="images/icon-music.svg"
+                  alt="annual plan for audio subscription"
+                />
+                <div class="subscription-cost-details">
+                  <h3 class="subscription-type">Annual Plan</h3>
+                  <span class="subscription-cost">$59.99/year</span>
+                </div>
+              </div>
+              <span class="change-option-action">Change</span>
+            </div>
+            <div class="payment-checkout-btn">Proceed to Payment</div>
+            <div class="cancal-btn">Cancel Order</div>
+          </div>
+        </div>
+      </div>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </footer>
+    </div>
+  </body>
 </html>
