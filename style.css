@@ -97,10 +97,12 @@ html {
   box-shadow: var(--neutral-desaturated-blue) 0px 18px 50px -10px;
   color: white;
   padding: 15px 0;
+  cursor: pointer;
 }
 
 .cancal-btn {
   font-weight: 700;
+  cursor: pointer;
 }
 
 .attribution {
